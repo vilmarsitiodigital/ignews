@@ -61,7 +61,7 @@ Technologies and tools used in the development of the project:
 
 ### Requirements
 
-\*\*Clone the project and access the folder
+**Clone the project and access the folder
 
 ```bash
 $ git clone https://github.com/vilmarsitiodigital/ignews.git && cd ignews
@@ -112,4 +112,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made with 💚 by Elias Gabriel 👋 [See my linkedin](https://www.linkedin.com/in/vilmarbatista/)
+Made with 💚 by Vilmar Batista 👋 [See my linkedin](https://www.linkedin.com/in/vilmarbatista/)
