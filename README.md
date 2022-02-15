@@ -1,34 +1,115 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  <img alt="Ignite" src="https://res.cloudinary.com/vilmarbatista/image/upload/v1623856822/Development/Ignite/ignite-reactjs_kzqdhj.png" />
+</h1>
 
-## Getting Started
+<h3 align="center">
+  Ignite
+</h3>
 
-First, run the development server:
+<p align="center">Ig.News - News about the React world</p>
+
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/vilmarsitiodigital/ignite-challenge-01?color=eba417">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/vilmarsitiodigital/ignite-challenge-01?color=eba417">
+
+  <a href="https://github.com/vilmarsitiodigital/ignite-challenge-01/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vilmarsitiodigital/ignite-challenge-01?color=eba417">
+  </a>
+
+  <a href="https://github.com/vilmarsitiodigital/ignite-challenge-01/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/vilmarsitiodigital/ignite-challenge-01?color=eba417">
+  </a>
+
+  <a href="https://github.com/vilmarsitiodigital/ignite-challenge-01/blob/main/LICENSE">
+    <img alt="GitHub" src="https://img.shields.io/github/license/vilmarsitiodigital/ignite-challenge-01?color=eba417">
+  </a>
+</p>
+
+<p align="center">
+  <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
+</p>
+
+</br>
+
+<p align="center">
+  <img alt="Layout" src="https://res.cloudinary.com/vilmarbatista/image/upload/v1644967330/Development/Ignite/ignews_llpeek.png">
+</p>
+
+## 📆 About the project
+
+Ig.news is a subscription-based news application, developed during Chapter III of the ReactJS track of the Ignite, where concepts such as Serverless, Server Side Rendering (SSR), Static Site Generation (SSG), authentication, payment integration with Stripe, and others were covered.
+
+Template URL: https://www.figma.com/file/gl0fHkQgvaUfXNjuwGtDDs/ig.news/duplicate <br />
+
+## 🚀 Technologies
+
+Technologies and tools used in the development of the project:
+
+- [ReactJS](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Next](https://nextjs.org/)
+- [Sass](https://sass-lang.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [Stripe](https://stripe.com/)
+
+## 💻 Getting started
+
+### Requirements
+
+\*\*Clone the project and access the folder
 
 ```bash
-npm run dev
-# or
-yarn dev
+$ git clone https://github.com/vilmarsitiodigital/ignews.git && cd ignews
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Follow the steps below**
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+# Instale as dependências
+$ yarn
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+# Inicie o serviço
+$ yarn dev
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 🤔 How to contribute
 
-## Learn More
+**Make a fork of this repository**
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Fork usando a linha de comando oficial do GitHub
+# Se você não tiver a CLI do GitHub, use o site para fazer isso.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+$ gh repo fork vilmarsitiodigital/ignews
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**Follow the steps below**
 
-## Deploy on Vercel
+```bash
+# Clone your fork
+$ git clone your-fork-url && cd ignews
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Create a branch with your feature
+$ git checkout -b my-feature
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Make the commit with your changes
+$ git commit -m 'Feature: My new feature'
+
+# Send the code to your remote branch
+$ git push origin my-feature
+```
+
+After your pull request is merged, you can delete your branch
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Made with 💚 by Elias Gabriel 👋 [See my linkedin](https://www.linkedin.com/in/vilmarbatista/)
