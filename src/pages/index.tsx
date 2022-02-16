@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Head from 'next/head';
 import styles from './home.module.scss';
 import { SubscribeButton } from '../components/SubscribeButton';
-import { GetServerSideProps } from 'next';
+import { GetServerSideProps, GetStaticProps } from 'next';
 import { stripe } from '../services/stripe';
 
 interface HomeProps {
@@ -43,10 +43,11 @@ export default function Home({ product }: HomeProps) {
   );
 }
 
-export const getServerSideProps: GetServerSideProps = async () => {
-  const price = await stripe.prices.retrieve('price_1KTZNHJhjVdJZoDcd9WBqsFH', {
-    expand: ['product'],
-  });
+// Client-side = informações que são carregadas com iteração do usuário
+// Server-side = dados estritamente dinâmicos (Ex: Bem Vindo Vilmar ao logar)
+// Static-side = dados iguais para todos usuários que não precisam ser carregados toda hora
+export const getStaticProps: GetStaticProps = async () => {
+  const price = await stripe.prices.retrieve('price_1KTZNHJhjVdJZoDcd9WBqsFH');
 
   const product = {
     priceId: price.id,
@@ -60,5 +61,6 @@ export const getServerSideProps: GetServerSideProps = async () => {
     props: {
       product,
     },
+    revalidate: 60 * 60 * 24, //24 hours
   };
 };
