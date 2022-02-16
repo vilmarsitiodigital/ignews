@@ -61,7 +61,7 @@ Technologies and tools used in the development of the project:
 
 ### Requirements
 
-**Clone the project and access the folder
+**Clone the project and access the folder**
 
 ```bash
 $ git clone https://github.com/vilmarsitiodigital/ignews.git && cd ignews
